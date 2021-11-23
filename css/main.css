@@ -1,0 +1,65 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu{
+    background-color: #eeebd141;
+}
+
+#botonsrc{
+    background-color: rgb(231, 230, 223);
+}
+.carousel-inner{
+    max-height: 38rem;
+}
+.icono{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#seccion-contacto{
+    background-color: #e4dfb975;
+}
+#avion{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+#botonform{
+    background-color: rgb(182, 180, 172);
+}
+footer{
+    background: #4d4c4675;
+}
+footer p{
+    color: rgb(253, 251, 251);
+}
+
+
+
+
+
+/* media queries */
+@media (min-width:769px) and (max-width:890px){
+    #avion{
+        width: 110px;
+        height: 120px;
+    }
+}
+@media (max-width:768px){
+    #intro {
+        width: 95% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    #avion{
+        width: 90px;
+        height: 80px;
+    }
+}
+@media (max-width:700px){
+    #avion{
+        display: none;
+    }
+}
